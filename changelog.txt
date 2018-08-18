@@ -1,0 +1,6 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: ??????
+  Features:
+    - Seperated Equipment hotkeys into its own mod.
+    - Added GUI for disabled equipment.
