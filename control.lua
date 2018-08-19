@@ -1,6 +1,5 @@
 local Event = require('__stdlib__/event/event')
 local Gui = require('__stdlib__/event/gui')
-local interface = require('interface')
 local mod_gui = require('mod-gui')
 
 -- (( Switch player gun while driving ))--
@@ -154,5 +153,5 @@ for event_name in pairs(Event.armor_hotkeys) do
     Event.register(event_name, Event.armor_hotkeys[event_name])
 end
 
-remote.add_interface(script.mod_name, interface)
+remote.add_interface(script.mod_name, require('__PickerExtended__/interface'))
 --)
