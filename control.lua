@@ -1,5 +1,5 @@
-local Event = require('__stdlib__/event/event')
-local Gui = require('__stdlib__/event/gui')
+local Event = require('__stdlib__/stdlib/event/event')
+local Gui = require('__stdlib__/stdlib/event/gui')
 local mod_gui = require('mod-gui')
 
 -- (( Switch player gun while driving ))--
