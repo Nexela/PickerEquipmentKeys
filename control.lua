@@ -153,5 +153,5 @@ for event_name in pairs(Event.armor_hotkeys) do
     Event.register(event_name, Event.armor_hotkeys[event_name])
 end
 
-remote.add_interface(script.mod_name, require('__PickerExtended__/interface'))
+remote.add_interface(script.mod_name, require('__stdlib__/stdlib/scripts/interface'))
 --)
