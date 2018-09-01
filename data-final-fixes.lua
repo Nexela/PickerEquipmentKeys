@@ -1,4 +1,6 @@
 -- This part mostly borrowed from equipment hotkeys by articulating which was mostly borrowed from personal-roboport-switch by mknejp
+local table = require('__stdlib__/stdlib/utils/table')
+
 if not data.raw['custom-input']['equipment-toggle-personal-roboport'] then
     local equipment = {}
 
