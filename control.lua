@@ -1,4 +1,5 @@
 local Event = require('__stdlib__/stdlib/event/event')
+Event.protected_mode = true
 local Gui = require('__stdlib__/stdlib/event/gui')
 local mod_gui = require('mod-gui')
 
