@@ -2,5 +2,6 @@
 Version: 1.0.0
 Date: ??????
   Features:
+    - Disabled toggling roboports/exoskeletons until API is added. (use UI buttons instead)
     - Seperated into its own mod.
     - Added GUI for disabled equipment.

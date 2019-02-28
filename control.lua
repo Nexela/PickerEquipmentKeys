@@ -108,12 +108,14 @@ end
 Gui.on_click('picker%-eq%-button%-', toggle_from_gui)
 
 Event.armor_hotkeys = Event.armor_hotkeys or {}
-Event.armor_hotkeys['toggle-equipment-movement-bonus'] = function(event)
-    toggle_armor_modules(event, 'equipment-bot-chip-all', global.equipment_list['movement-bonus-equipment'] or {})
-end
-Event.armor_hotkeys['toggle-equipment-roboport'] = function(event)
-    toggle_armor_modules(event, 'equipment-bot-chip-all', global.equipment_list['roboport-equipment'] or {})
-end
+
+-- Event.armor_hotkeys['toggle-equipment-movement-bonus'] = function(event)
+--     toggle_armor_modules(event, 'equipment-bot-chip-all', global.equipment_list['movement-bonus-equipment'] or {})
+-- end
+-- Event.armor_hotkeys['toggle-equipment-roboport'] = function(event)
+--     toggle_armor_modules(event, 'equipment-bot-chip-all', global.equipment_list['roboport-equipment'] or {})
+-- end
+
 Event.armor_hotkeys['toggle-equipment-night-vision'] = function(event)
     toggle_armor_modules(event, 'equipment-bot-chip-all', global.equipment_list['night-vision-equipment'] or {})
 end
