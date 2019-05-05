@@ -9,7 +9,7 @@ local function switch_player_gun_while_driving(event)
     local character = player.character
     if character and player.vehicle then
         local index = character.selected_gun_index
-        local gun_inv = character.get_inventory(defines.inventory.player_guns)
+        local gun_inv = character.get_inventory(defines.inventory.character_guns)
         local start = index
         repeat
             index = index < #gun_inv and (index + 1) or 1
