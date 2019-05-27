@@ -6,16 +6,6 @@ data:extend {
     },
     {
         type = 'custom-input',
-        name = 'toggle-equipment-roboport',
-        key_sequence = 'CONTROL + F1'
-    },
-    {
-        type = 'custom-input',
-        name = 'toggle-equipment-movement-bonus',
-        key_sequence = 'CONTROL + F2'
-    },
-    {
-        type = 'custom-input',
         name = 'toggle-equipment-night-vision',
         key_sequence = 'CONTROL + F3'
     },
