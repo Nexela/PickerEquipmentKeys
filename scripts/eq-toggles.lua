@@ -90,9 +90,6 @@ Event.armor_hotkeys = Event.armor_hotkeys or {}
 Event.armor_hotkeys['toggle-equipment-night-vision'] = function(event)
     toggle_armor_modules(event, 'equipment-bot-chip-all', global.equipment_list['night-vision-equipment'] or {})
 end
-Event.armor_hotkeys['toggle-equipment-belt-immunity'] = function(event)
-    toggle_armor_modules(event, 'equipment-bot-chip-all', global.equipment_list['belt-immunity-equipment'] or {})
-end
 Event.armor_hotkeys['toggle-equipment-active-defense'] = function(event)
     toggle_armor_modules(event, 'equipment-bot-chip-all', global.equipment_list['active-defense-equipment'] or {})
 end

@@ -1,8 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: ??????
+  Changes:
+    - Remove belt immunity since they can't be toggled.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: ??????
   BugFixes:
-    - Remove Un-needed toggles for roboport and exoskeletons
+    - Remove Un-needed toggles for roboport and exoskeletons.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: ??????
