@@ -9,7 +9,7 @@
     "homepage": "",
     "description": "Hotkeys for enabling and disabling equipment",
     "package": {
-      "ignore": ["makefile"],
+      "ignore": [],
       "scripts": {
         "datestamp": "../PickerAtheneum/.publish/datestamp.sh",
         "prepackage": "../PickerAtheneum/.publish/prepackage.sh",
